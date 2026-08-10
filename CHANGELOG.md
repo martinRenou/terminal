@@ -2,6 +2,27 @@
 
 <!-- <START NEW CHANGELOG ENTRY> -->
 
+## 1.6.2
+
+JupyterLite Terminal 1.6.2 is a bug fix release to support `micromamba 2.9.0` which otherwise causes a failure at the `jupyter lite build` stage of deployment.
+
+([Full Changelog](https://github.com/jupyterlite/terminal/compare/v1.6.1...40c39a7345d777dccbe2dc1e6abbb9ef99f4d760))
+
+### Bugs fixed
+
+- Update to cockle 1.7.1 for release 1.6.2 [#131](https://github.com/jupyterlite/terminal/pull/131) ([@ianthomas23](https://github.com/ianthomas23))
+
+### Contributors to this release
+
+The following people contributed discussions, new ideas, code and documentation contributions, and review.
+See [our definition of contributors](https://github-activity.readthedocs.io/en/latest/use/#how-does-this-tool-define-contributions-in-the-reports).
+
+([GitHub contributors page for this release](https://github.com/jupyterlite/terminal/graphs/contributors?from=2026-08-05&to=2026-08-10&type=c))
+
+@ianthomas23 ([activity](https://github.com/search?q=repo%3Ajupyterlite%2Fterminal+involves%3Aianthomas23+updated%3A2026-08-05..2026-08-10&type=Issues))
+
+<!-- <END NEW CHANGELOG ENTRY> -->
+
 ## 1.6.1
 
 JupyterLite Terminal 1.6.1 is a bug fix release to correct the extension directory name, for use in hybrid JupyterLab/JupyterLite deployments.
@@ -27,8 +48,6 @@ See [our definition of contributors](https://github-activity.readthedocs.io/en/l
 ([GitHub contributors page for this release](https://github.com/jupyterlite/terminal/graphs/contributors?from=2026-07-17&to=2026-08-05&type=c))
 
 @ianthomas23 ([activity](https://github.com/search?q=repo%3Ajupyterlite%2Fterminal+involves%3Aianthomas23+updated%3A2026-07-17..2026-08-05&type=Issues))
-
-<!-- <END NEW CHANGELOG ENTRY> -->
 
 ## 1.6.0
 
