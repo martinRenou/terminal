@@ -133,6 +133,10 @@
             "@jupyterlite/services": {
                 "bundled": false,
                 "singleton": true
+            },
+            "@jupyterlite/cockle": {
+                "bundled": true,
+                "singleton": true
             }
         }
     },
